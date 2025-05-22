@@ -111,7 +111,7 @@ export default function NotFound() {
 
             {four1.map((ar: string[], idx: number) => (
                 
-          <pre key={idx} className="text-white text-xs">{ar.map((str, i) => `${str}`)}</pre>
+          <pre key={idx} className="text-white text-xs">{ar.map((str, _) => `${str}`)}</pre>
             ))}
             </div>
 
@@ -119,7 +119,7 @@ export default function NotFound() {
 
             {zero.map((ar: string[], idx: number) => (
                 
-          <pre key={idx} className="text-white text-xs">{ar.map((str, i) => `${str}`)}</pre>
+          <pre key={idx} className="text-white text-xs">{ar.map((str, _) => `${str}`)}</pre>
             ))}
             </div>
             
@@ -127,7 +127,7 @@ export default function NotFound() {
 
             {four2.map((ar: string[], idx: number) => (
                 
-          <pre key={idx} className="text-white text-xs">{ar.map((str, i) => `${str}`)}</pre>
+          <pre key={idx} className="text-white text-xs">{ar.map((str, _) => `${str}`)}</pre>
             ))}
             </div>
         </div>

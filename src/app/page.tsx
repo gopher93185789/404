@@ -100,7 +100,7 @@ export default function NotFound() {
         setFour2((prev) => mutate(prev));
       }, 16);
 
-      return () => clearInterval(interval); // Clean up on unmount
+      return () => clearInterval(interval); 
     }, []);
     
 
